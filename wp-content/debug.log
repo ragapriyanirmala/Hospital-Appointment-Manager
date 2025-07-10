@@ -1,0 +1,188 @@
+[09-Jul-2025 19:52:15 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 189
+[09-Jul-2025 19:52:15 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 189
+[09-Jul-2025 19:54:31 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 189
+[09-Jul-2025 19:54:31 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 189
+[09-Jul-2025 19:54:41 UTC] Array
+(
+    [3] => Array
+        (
+            [name] => Patient Name
+            [value] => ragapriya nirmala
+            [id] => 3
+            [type] => name
+            [first] => ragapriya
+            [middle] => 
+            [last] => nirmala
+        )
+
+    [2] => Array
+        (
+            [name] => Email
+            [value] => ragapriyanirmala@gmail.com
+            [id] => 2
+            [type] => email
+        )
+
+    [6] => Array
+        (
+            [name] => Doctor Name
+            [value] => test
+            [value_raw] => 38
+            [id] => 6
+            [type] => select
+            [dynamic] => post_type
+            [dynamic_items] => 38
+            [dynamic_post_type] => doctor
+        )
+
+    [8] => Array
+        (
+            [name] => Appointment Date
+            [value] => 2025-07-28
+            [id] => 8
+            [type] => text
+        )
+
+    [11] => Array
+        (
+            [name] => Time Slots
+            [value] => 09:00 - 09:30
+            [value_raw] => 09:00 - 09:30
+            [id] => 11
+            [type] => select
+        )
+
+)
+
+[09-Jul-2025 19:57:32 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 188
+[09-Jul-2025 19:57:32 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 188
+[09-Jul-2025 19:58:22 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 188
+[09-Jul-2025 19:58:22 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 188
+[09-Jul-2025 19:59:19 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 188
+[09-Jul-2025 19:59:19 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 188
+[09-Jul-2025 20:01:14 UTC] PHP Parse error:  Unclosed '{' on line 74 in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 222
+[09-Jul-2025 20:01:20 UTC] PHP Parse error:  Unclosed '{' on line 74 in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 222
+[09-Jul-2025 20:02:07 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 167
+[09-Jul-2025 20:02:07 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 167
+[09-Jul-2025 20:06:49 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 202
+[09-Jul-2025 20:06:49 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 202
+[09-Jul-2025 20:06:57 UTC] PHP Warning:  Undefined variable $date in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 114
+[09-Jul-2025 20:06:57 UTC] PHP Warning:  Undefined variable $time in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 114
+[09-Jul-2025 20:06:57 UTC] PHP Warning:  Undefined variable $email in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 132
+[09-Jul-2025 20:06:57 UTC] PHP Warning:  Undefined variable $date in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 134
+[09-Jul-2025 20:06:57 UTC] PHP Warning:  Undefined variable $time in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 135
+[09-Jul-2025 20:06:57 UTC] PHP Warning:  Undefined variable $date in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 148
+[09-Jul-2025 20:06:57 UTC] PHP Warning:  Undefined variable $time in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 148
+[09-Jul-2025 20:10:01 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 202
+[09-Jul-2025 20:10:01 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 202
+[09-Jul-2025 20:10:09 UTC] PHP Warning:  Undefined variable $date in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 114
+[09-Jul-2025 20:10:09 UTC] PHP Warning:  Undefined variable $time in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 114
+[09-Jul-2025 20:10:09 UTC] PHP Warning:  Undefined variable $date in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 148
+[09-Jul-2025 20:10:09 UTC] PHP Warning:  Undefined variable $time in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 148
+[09-Jul-2025 20:13:54 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 207
+[09-Jul-2025 20:13:54 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 207
+[09-Jul-2025 20:14:01 UTC] PHP Warning:  Undefined variable $date in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 114
+[09-Jul-2025 20:14:01 UTC] PHP Warning:  Undefined variable $time in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 114
+[09-Jul-2025 20:14:03 UTC] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 146
+[09-Jul-2025 20:14:03 UTC] PHP Warning:  Undefined variable $date in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 153
+[09-Jul-2025 20:14:03 UTC] PHP Warning:  Undefined variable $time in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 153
+[09-Jul-2025 20:15:30 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 147
+[09-Jul-2025 20:15:32 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 147
+[09-Jul-2025 20:15:42 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 147
+[09-Jul-2025 20:15:50 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 147
+[09-Jul-2025 20:15:52 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 147
+[09-Jul-2025 20:16:13 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 147
+[09-Jul-2025 20:16:16 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 147
+[09-Jul-2025 20:16:17 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 147
+[09-Jul-2025 20:16:17 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 147
+[09-Jul-2025 20:16:18 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 147
+[09-Jul-2025 20:16:18 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 147
+[09-Jul-2025 20:17:07 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 207
+[09-Jul-2025 20:17:07 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 207
+[09-Jul-2025 20:17:17 UTC] PHP Warning:  Undefined variable $date in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 114
+[09-Jul-2025 20:17:17 UTC] PHP Warning:  Undefined variable $time in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 114
+[09-Jul-2025 20:17:19 UTC] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 146
+[09-Jul-2025 20:17:19 UTC] Email sending failed.
+[09-Jul-2025 20:17:19 UTC] PHP Warning:  Undefined variable $date in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 153
+[09-Jul-2025 20:17:19 UTC] PHP Warning:  Undefined variable $time in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 153
+[09-Jul-2025 20:46:14 UTC] PHP Notice:  Function add_shortcode was called <strong>incorrectly</strong>. Invalid shortcode name: Empty name given. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\xampp\htdocs\hospitalappointment\wp-includes\functions.php on line 6121
+[09-Jul-2025 20:46:14 UTC] PHP Notice:  Function add_shortcode was called <strong>incorrectly</strong>. Invalid shortcode name: Empty name given. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\xampp\htdocs\hospitalappointment\wp-includes\functions.php on line 6121
+[09-Jul-2025 20:46:25 UTC] PHP Notice:  Function add_shortcode was called <strong>incorrectly</strong>. Invalid shortcode name: Empty name given. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\xampp\htdocs\hospitalappointment\wp-includes\functions.php on line 6121
+[09-Jul-2025 20:46:25 UTC] PHP Notice:  Function add_shortcode was called <strong>incorrectly</strong>. Invalid shortcode name: Empty name given. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\xampp\htdocs\hospitalappointment\wp-includes\functions.php on line 6121
+[09-Jul-2025 20:46:27 UTC] PHP Notice:  Function add_shortcode was called <strong>incorrectly</strong>. Invalid shortcode name: Empty name given. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\xampp\htdocs\hospitalappointment\wp-includes\functions.php on line 6121
+[09-Jul-2025 20:54:36 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 243
+[09-Jul-2025 20:54:36 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 243
+[09-Jul-2025 20:54:47 UTC] PHP Warning:  Undefined variable $date in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 149
+[09-Jul-2025 20:54:47 UTC] PHP Warning:  Undefined variable $time in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 149
+[09-Jul-2025 20:54:49 UTC] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 181
+[09-Jul-2025 20:54:49 UTC] Email sending failed.
+[09-Jul-2025 20:54:49 UTC] PHP Warning:  Undefined variable $date in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 188
+[09-Jul-2025 20:54:49 UTC] PHP Warning:  Undefined variable $time in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 188
+[09-Jul-2025 20:54:59 UTC] PHP Warning:  Undefined array key "appointment_time" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 78
+[10-Jul-2025 04:53:54 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\xampp\htdocs\hospitalappointment\wp-includes\functions.php on line 6121
+[10-Jul-2025 04:53:54 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\xampp\htdocs\hospitalappointment\wp-includes\functions.php on line 6121
+[10-Jul-2025 04:53:54 UTC] PHP Warning:  wp_update_themes(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\xampp\htdocs\hospitalappointment\wp-includes\functions.php on line 6121
+[10-Jul-2025 06:45:12 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "ham_render_schedule_metabox" not found or invalid function name in C:\xampp\htdocs\hospitalappointment\wp-admin\includes\template.php:1456
+Stack trace:
+#0 C:\xampp\htdocs\hospitalappointment\wp-admin\includes\post.php(2393): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 C:\xampp\htdocs\hospitalappointment\wp-admin\edit-form-blocks.php(383): the_block_editor_meta_boxes()
+#2 C:\xampp\htdocs\hospitalappointment\wp-admin\post.php(187): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\hospitalappointment\wp-admin\includes\template.php on line 1456
+[10-Jul-2025 06:45:22 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "ham_render_schedule_metabox" not found or invalid function name in C:\xampp\htdocs\hospitalappointment\wp-admin\includes\template.php:1456
+Stack trace:
+#0 C:\xampp\htdocs\hospitalappointment\wp-admin\includes\post.php(2393): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 C:\xampp\htdocs\hospitalappointment\wp-admin\edit-form-blocks.php(383): the_block_editor_meta_boxes()
+#2 C:\xampp\htdocs\hospitalappointment\wp-admin\post.php(187): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\hospitalappointment\wp-admin\includes\template.php on line 1456
+[10-Jul-2025 06:54:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "ham_render_schedule_metabox" not found or invalid function name in C:\xampp\htdocs\hospitalappointment\wp-admin\includes\template.php:1456
+Stack trace:
+#0 C:\xampp\htdocs\hospitalappointment\wp-admin\includes\post.php(2393): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 C:\xampp\htdocs\hospitalappointment\wp-admin\edit-form-blocks.php(383): the_block_editor_meta_boxes()
+#2 C:\xampp\htdocs\hospitalappointment\wp-admin\post.php(187): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\hospitalappointment\wp-admin\includes\template.php on line 1456
+[10-Jul-2025 07:01:10 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 291
+[10-Jul-2025 07:01:10 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 291
+[10-Jul-2025 07:09:31 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 291
+[10-Jul-2025 07:09:31 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 291
+[10-Jul-2025 07:13:36 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 291
+[10-Jul-2025 07:13:36 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 291
+[10-Jul-2025 07:17:28 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:17:28 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:21:58 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:21:58 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:22:07 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:22:07 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:25:06 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:25:29 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:25:47 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:27:53 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:29:27 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:29:36 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:29:49 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:33:11 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:33:34 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:33:53 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:39:48 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:40:43 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:41:17 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:43:45 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:46:38 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:46:52 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:47:05 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:47:55 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 293
+[10-Jul-2025 07:56:58 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_send_json_success", expecting ")" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 346
+[10-Jul-2025 07:58:59 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_send_json_success", expecting ")" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 347
+[10-Jul-2025 08:00:00 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_send_json_success", expecting ")" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 347
+[10-Jul-2025 08:02:01 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_send_json_success", expecting ")" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 347
+[10-Jul-2025 08:04:31 UTC] PHP Warning:  Undefined variable $date in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 197
+[10-Jul-2025 08:04:31 UTC] PHP Warning:  Undefined variable $time in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 197
+[10-Jul-2025 08:05:08 UTC] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 355
+[10-Jul-2025 09:28:04 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 273
+[10-Jul-2025 09:28:36 UTC] PHP Warning:  Undefined array key "appointment_date" in C:\xampp\htdocs\hospitalappointment\wp-content\plugins\hospitalappointmentmanager\hospitalappointment.php on line 273
+[10-Jul-2025 11:44:49 UTC] Automatic updates starting...
+[10-Jul-2025 11:44:50 UTC]   Automatic plugin updates starting...
+[10-Jul-2025 11:44:50 UTC]   Automatic plugin updates complete.
+[10-Jul-2025 11:44:51 UTC] Automatic updates complete.

@@ -1,0 +1,171 @@
+.ham-datepicker > input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: url('https://img.icons8.com/ios/20/000000/calendar--v1.png') no-repeat right 10px center;
+    background-size: 16px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.ui-datepicker {
+    font-size: 14px;
+    z-index: 9999 !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #fff;
+}
+/* Ensure overall form box looks neat */
+.wpforms-container .wpforms-form {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 650px;
+    margin: 40px auto;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Improve label look */
+.wpforms-field-label {
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #333;
+}
+
+/* Input fields: no breakage, just style */
+.wpforms-form input[type="text"],
+.wpforms-form input[type="email"],
+.wpforms-form input[type="url"],
+.wpforms-form input[type="tel"],
+.wpforms-form input[type="date"],
+.wpforms-form select,
+.wpforms-form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+.wpforms-submit-container button {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.wpforms-container {
+    padding: 0 !important;
+    margin: 0 auto !important;
+}
+.wpforms-field-name-first,
+.wpforms-field-name-last {
+    width: 100% !important;
+    display: block;
+    margin-bottom: 10px;
+}
+/* Make all input/select/textarea fields full width */
+.wpforms-form input[type="text"],
+.wpforms-form input[type="email"],
+.wpforms-form input[type="tel"],
+.wpforms-form input[type="url"],
+.wpforms-form input[type="date"],
+.wpforms-form select,
+.wpforms-form textarea {
+    width: 100% !important;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+
+.wpforms-submit-container button:hover {
+    background-color: #005f8d;
+}
+
+/* Field spacing */
+.wpforms-field {
+    margin-bottom: 20px;
+}
+
+/* Optional: Responsive handling */
+@media (max-width: 600px) {
+    .wpforms-form {
+        padding: 20px;
+    }
+}
+
+#wpforms-form-29 {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+/* Style labels */
+#wpforms-form-29 label.wpforms-field-label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Style inputs and textareas */
+#wpforms-form-29 input[type="text"],
+#wpforms-form-29 input[type="email"],
+#wpforms-form-29 select,
+#wpforms-form-29 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+tfoot input {
+        width: 100%;
+        padding: 3px;
+        box-sizing: border-box;
+    }
+/* Submit button */
+#wpforms-form-29 button[type="submit"] {
+    background-color: #0073aa;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#wpforms-form-29 button[type="submit"]:hover {
+    background-color: #005d8f;
+}
+.wpforms-field-sublabel
+{
+    display: none !important;
+}
+.ham-datepicker, .wpform-time-slot
+{
+    display: none;
+}
+ .slot-row { margin: 8px 0; }
+    .slots-group { margin-left: 20px; margin-top: 5px; }
+
+#appointments-table_filter
+{
+    margin: 12px;
+}
+#appointments-table_length > label > select
+{
+    padding: 12px;
+} 

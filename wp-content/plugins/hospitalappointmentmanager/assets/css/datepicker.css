@@ -1,0 +1,29 @@
+/* Style the date field like other inputs */
+.ham-datepicker {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Position the calendar properly */
+.ui-datepicker {
+    z-index: 99999 !important;
+    background: #fff;
+    border: 1px solid #aaa;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Fix misalignment of day labels */
+.ui-datepicker th {
+    text-align: center;
+    padding: 5px 8px;
+    font-weight: normal;
+}
+
+/* Improve overall appearance */
+.ui-datepicker td {
+    text-align: center;
+    padding: 6px;
+}
