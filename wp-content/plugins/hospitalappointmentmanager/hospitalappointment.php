@@ -10,6 +10,7 @@
  * Requires at least: 6.3.2
  * Requires PHP: 8.2
 */
+/* While activating the plugin created custom table */
 register_activation_hook(__FILE__, 'ham_create_tables');
 
 function ham_create_tables() {
@@ -31,7 +32,7 @@ function ham_create_tables() {
     require_once ABSPATH . 'wp-admin/includes/upgrade.php';
     dbDelta($sql);
 }
-
+// adding the menu in admin panel
 add_action('admin_menu', 'add_hospital_appointments_menu');
 
 // Function to register the menu
@@ -46,7 +47,6 @@ function add_hospital_appointments_menu() {
         6                               
     );
 }
-
 // Function to display content when menu is clicked
 function hospital_appointments_page() {
     global $wpdb;
@@ -102,7 +102,7 @@ function hospital_appointments_page() {
     </div>
 <?php
 }
-
+// log created 
 if (!function_exists('write_log')) {
 
     function write_log($log) {
@@ -116,6 +116,7 @@ if (!function_exists('write_log')) {
     }
 
 }
+// while the wpfroms submission inserting form data into the custom table 
 add_action('wpforms_process_complete', 'ham_handle_wpform_appointment', 10, 4);
 
 function ham_handle_wpform_appointment($fields, $entry, $form_data, $entry_id) {
@@ -168,7 +169,7 @@ function ham_handle_wpform_appointment($fields, $entry, $form_data, $entry_id) {
         'status'            => 'Pending'
     ]);
 }
-
+// link the scrips and style files
 add_action('wp_enqueue_scripts', 'ham_enqueue_datepicker_assets');
 add_action('admin_init', 'ham_enqueue_datepicker_assets');
 function ham_enqueue_datepicker_assets() {
@@ -181,12 +182,13 @@ function ham_enqueue_datepicker_assets() {
 
     wp_enqueue_script('ham-datepicker-js', plugin_dir_url(__FILE__) . 'assets/js/datepicker.js', ['jquery'], null, true);
     wp_enqueue_style('ham-datepicker-style', plugin_dir_url(__FILE__) . 'assets/css/style.css');
-
+    wp_enqueue_style('datatables-css', 'https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css');
+    wp_enqueue_script('datatables-js', 'https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js', ['jquery'], null, true);
     wp_localize_script('ham-datepicker-js', 'ham_ajax', [
         'ajax_url' => admin_url('admin-ajax.php'),
     ]);
 }
-
+// timeslot selection based on the odoctor and appointmentdate
 function ham_get_time_slot_intervals($doctor_id, $selected_date = '') {
     global $wpdb;
 
@@ -214,21 +216,19 @@ function ham_get_time_slot_intervals($doctor_id, $selected_date = '') {
         }
     }
 
-    // 🔍 Get already booked slots for this doctor on this date
+    // Get already booked slots for this doctor on this date
     $table = $wpdb->prefix . 'ham_appointments';
     $booked_slots = $wpdb->get_col($wpdb->prepare(
         "SELECT time_slot FROM $table WHERE doctor_id = %d AND appointment_date = %s",
         $doctor_id, $selected_date
     ));
 
-    // ❌ Remove booked slots
+    // Remove booked slots
     $available_slots = array_diff($all_slots, $booked_slots);
 
     return array_values($available_slots); // reindex
 }
-
-
-
+// ajax call for get the doctor availability
 add_action('wp_ajax_get_doctor_availability', 'ham_get_doctor_availability');
 add_action('wp_ajax_nopriv_get_doctor_availability', 'ham_get_doctor_availability');
 
@@ -259,32 +259,24 @@ function ham_get_doctor_availability() {
             $allowed_days[] = $map[$day_name];
         }
     }
-
     $available_slots = ham_get_time_slot_intervals($doctor_id, $selected_date);
-
     wp_send_json_success([
         'allowed_days'     => $allowed_days,
         'available_slots'  => $available_slots,
     ]);
 }
-
+//generated the shortcode for the form
 add_shortcode('hospital_appointment_form','hospital_appointment_form');
 
 function hospital_appointment_form()
 {
     return do_shortcode('[wpforms id="29"]'); 
 }
-add_action('admin_enqueue_scripts', 'ham_enqueue_datatables_assets');
-function ham_enqueue_datatables_assets($hook) {
-    wp_enqueue_style('datatables-css', 'https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css');
-    wp_enqueue_script('datatables-js', 'https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js', ['jquery'], null, true);
-    wp_enqueue_style('ham-datepicker-style', plugin_dir_url(__FILE__) . 'assets/css/style.css');
-    wp_enqueue_script('ham-datepicker-js', plugin_dir_url(__FILE__) . 'assets/js/admin-status.js', ['jquery'], null, true);
-}
+
+// admin changes the status
 add_action('wp_ajax_ham_update_appointment_status', 'ham_update_appointment_status');
 function ham_update_appointment_status() {
     global $wpdb;
-
     $id = intval($_POST['id']);
     $status = sanitize_text_field($_POST['status']);
 
@@ -325,7 +317,7 @@ function ham_update_appointment_status() {
         wp_send_json_error(['message' => 'Update failed']);
     }
 }
-
+// initialised the meta boxes for the doctor availability
 add_action('add_meta_boxes', 'ham_add_doctor_schedule_metabox');
 function ham_add_doctor_schedule_metabox() {
     add_meta_box(
@@ -337,6 +329,7 @@ function ham_add_doctor_schedule_metabox() {
         'default'
     );
 }
+//meta box function call
 function ham_render_schedule_metabox($post) {
     $weekdays = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
 
@@ -371,6 +364,7 @@ function ham_render_schedule_metabox($post) {
         }
         echo "</div></div></div>";
     }
+    //added nonce for the security
     wp_nonce_field('save_doctor_time_slots', 'doctor_time_slots_nonce');
 }
 // save the custom metabox details inside the Doctor post
