@@ -308,7 +308,7 @@ function ham_update_appointment_status() {
         $time_slot = $appointment['time_slot'];
 
         $subject = "Appointment Status Updated";
-        $message = "Hi $name,\n\nYour appointment is now marked as \"$status\".\nScheduled for: $appointment_date at $time_slot.\n\nThanks!";
+        $message = "Hi $name,\n\nYour appointment is now marked as \"$status\".\nOn: $appointment_date at $time_slot.\n\nThanks!";
         $headers = "From: ragapriyanirmala@gmail.com\r\n";
         $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
         mail($to, $subject, $message, $headers);
